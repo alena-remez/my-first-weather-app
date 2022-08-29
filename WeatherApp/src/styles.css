@@ -1,0 +1,129 @@
+body {
+  background: #fff;
+}
+h1 {
+  color: #42a5f5;
+  font-family: "Times New Roman", Times, serif;
+  width: 100%;
+}
+h3 {
+  color: #00afff;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+}
+form {
+  display: flex;
+  padding-left: 15px;
+}
+input {
+  margin: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00afff;
+  border-radius: 10px;
+}
+a {
+  text-align: center;
+}
+button {
+  background: #42a5f5;
+  border: 1px solid #42a5f5;
+  border-radius: 20px !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 18px;
+  margin: -10px 20px;
+  line-height: 22px;
+  padding: 7px 13px;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background: #80d6ff;
+  color: #116968;
+  cursor: pointer;
+}
+.degrees-today {
+  color: #47494f;
+  position: relative;
+}
+.page {
+  border: 1px solid #1f10ef;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(93, 178, 246, 0.9);
+  width: 70%;
+  margin: 40px 20px;
+  padding: 30px 20px;
+}
+.icon-first {
+  color: #ffcc00;
+  font-size: 40px;
+  padding: 20px 10px;
+}
+.icon {
+  color: #ffcc00;
+  font-size: 20px;
+}
+.header-weather {
+  font-size: 18px;
+  font-weight: 900;
+  width: 100%;
+}
+.header-maps {
+  font-size: 18px;
+  text-align: left;
+  padding: 0;
+  width: 100%;
+}
+.location-button {
+  background: #42f560;
+  border: 1px solid #42f560;
+  border-radius: 10px !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  font-size: 20px;
+  margin: 20px 30px;
+  line-height: 22px;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all 200ms ease-in-out;
+}
+.search-button {
+  text-indent: -999px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat center;
+  opacity: 0.7;
+  text-align: left;
+}
+.temperature {
+  color: #47494f;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 1;
+  position: relative;
+}
+.temperature-5days {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6e7177;
+  padding: 20px 0;
+  text-align: center;
+}
+.units {
+  position: relative;
+  top: -15px;
+  text-decoration: none;
+}
