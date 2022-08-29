@@ -53,6 +53,9 @@ button:hover {
   color: #47494f;
   position: relative;
 }
+footer {
+  text-align: center;
+}
 .page {
   border: 1px solid #1f10ef;
   border-radius: 10px;
